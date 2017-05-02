@@ -33,10 +33,10 @@
       <h1 class="text-form">TURN MILES</h1>
       <h2 class="text-form">INTO MONEY</h1>
       <p id="p-form">sign up to drive with lyft.</p>
-      <input class="input-date" type="telf" placeholder="Phone number">
-      <input class="input-date" type="text" placeholder="Name">
-      <input class="input-date" type="mail" placeholder="Email">
-      <input class="input-date" type="text" placeholder="City">
+      <input class="input-date" type="telf" placeholder="Phone number" id="phone" autofocus="" required>
+      <input class="input-date" type="text" placeholder="Name" id="name" required>
+      <input class="input-date" type="mail" placeholder="Email" id="email" required>
+      <input class="input-date" type="text" placeholder="City" id="city" required>
       <button class="btn-form" type="button" id="enviar">Become a driver</button>
       <a id="sign-form" href="#">Sign up to ride</a>
       <div id="condiciones">
@@ -48,22 +48,44 @@
   <section id="info-principal">
     <div id="texto-info">
       <div class="texto-uno box-text">
-        <h3>A RIDE IN MINUTES</h3>
-        <p>Request a ride and you’ll be on your way in minutes. <br>Request. Ride. Repeat.</p>
+        <h3 class="text-extra">A RIDE IN MINUTES</h3>
+        <p class="text-p">Request a ride and you’ll be on your way in minutes. <br>Request. Ride. Repeat.</p>
       </div>
       <div class="texto-dos box-text">
-        <h3>SERIOUS ABOUT SAFETY</h3>
-        <p>From knowing the color of your driver’s car to our 24/7<br>Trust & Safety Team, we got you.</p>
+        <h3 class="text-extra">SERIOUS ABOUT SAFETY</h3>
+        <p class="text-p">From knowing the color of your driver’s car to our 24/7<br>Trust & Safety Team, we got you.</p>
       </div>
       <div class="texto-tres box-text">
         <h3 class="text-extra">HAPPY DRIVERS.</h3>
         <h3 class="text-extra">HAPPY RIDERS.</h3>
-        <p>Ride with us and you’ll see why 9 out of 10 rides end with five stars</p>
+        <p class="text-p">Ride with us and you’ll see why 9 out of 10 rides end with five stars</p>
       </div>
     </div>
     <div id="img-info">
       <img id="img-phone" src="assets\img\phone.png" alt="">
     </div>
   </section>
+  <section id="info-videos">
+    <div id="info-video-uno">
+      <div class="texto-box">
+        <p>WATCH</p>
+        <h3>AMPLIFY YOUR RIDE</h3>
+        <p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+      </div>
+      <div class="video-box">
+        <iframe type="text/html" width="800" height="400" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <!-- <div id="info-video-dos">
+        <div class="texto-box-dos">
+          <p>WATCH</p>
+          <h3>JUNE</h3>
+          <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.</p>
+        </div>
+        <div class="video-box-dos">
+          <iframe type="text/html" width="800" height="400" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+    </div>
+  </section>
+  <script src="assets/js/app.js" charset="utf-8"></script>
 </body>
 </html>
