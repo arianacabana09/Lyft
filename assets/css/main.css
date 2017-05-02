@@ -1,0 +1,58 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.video-fondo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(221, 139, 17);
+  width: 100%;
+  height: 100px;
+}
+
+/*opciones del navegador*/
+.item-nav{
+  display: inline-block;
+  position: relative;
+  left: 800px;
+  top: 0;
+  margin: 0 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/*LOGO*/
+/*posicion del logo*/
+.logo{
+  left: 20px;
+  top: 10px;
+}
+
+/*medidas del logo*/
+#logo-white{
+  width: 60px;
+  height: 40px;
+}
+
+/*LOGIN*/
+.log-in{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  width: 50px;
+  border-radius: 10px;
+}
