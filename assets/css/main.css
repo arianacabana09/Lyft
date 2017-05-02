@@ -194,7 +194,7 @@ a:hover{
   margin: 0;
 }
 
-/*contenido*/
+/*contenido del primer video*/
 .texto-box{
   display: inline-block;
   position: absolute;
@@ -210,10 +210,25 @@ a:hover{
   left: 549px;
 }
 
-/*.texto-box-dos{
+/*contenido del segundo video*/
+
+#info-video-dos{
+  position: absolute;
+  top: 400px;
+}
+
+.texto-box-dos{
+  position: relative;
+  width: 350px;
+  top: 0px;
+  left: 850px;
+  padding-top: 20px;
+}
+
+.video-box-dos{
   display: inline-block;
   position: absolute;
-  width: 350px;
-  top: 60px;
-  right: 15px;
-}*/
+  top: 0px;
+  width: 500px;
+  left: 0px;
+}
