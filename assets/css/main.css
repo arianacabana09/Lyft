@@ -11,6 +11,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
+  height: 758;
 }
 
 nav{
@@ -26,9 +27,10 @@ nav{
 .item-nav{
   display: inline-block;
   position: relative;
-  left: 800px;
+  left: 680px;
   top: 0;
   margin: 0 10px;
+  font-size: 1.25rem;
 }
 
 a{
@@ -53,6 +55,68 @@ a{
 .log-in{
   border: 2px solid rgb(255, 255, 255);
   padding: 10px;
-  width: 50px;
+  width: 60px;
   border-radius: 10px;
+}
+/*Fin NAV*/
+
+/*FORM*/
+.form-principal{
+  box-sizing: border-box;
+  padding: 64px;
+  display: inline-block;
+  position: absolute;
+  width: 550px;
+  height: 600px;
+  top: 200px;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+/*Titulo del Fomr*/
+.text-form{
+  margin: 5px 0;
+  color: rgb(53, 35, 132);
+  font-size: 49px;
+}
+
+#p-form{
+  color: rgb(53, 35, 132);
+  font-size: 1.6rem;
+}
+
+/*input de form*/
+.input-date{
+  display: block;
+  width: 400px;
+  margin-bottom: 20px;
+  border: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgb(53, 35, 132);
+  height: 30px;
+}
+
+.input-date:focus{
+  outline: none;
+}
+
+.btn-form{
+  background-color: rgb(255, 0, 191);
+  padding: 20px;
+  border: 1px solid rgba(30, 134, 203, 0);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+#sign-form{
+  color: rgb(129, 130, 138);
+  text-decoration: underline;
+}
+
+.leer-form{
+  display: block;
+  width: 400px;
+  font-size: 12px;
 }
